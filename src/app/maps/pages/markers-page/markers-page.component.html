@@ -2,11 +2,15 @@
 
 
 <ul class="list-group">
-  <li class="list-group-item">
-    Marker 1
+  <li *ngFor="let colorMarker of currentMarkers; let i = index"
+  [ngStyle]="{ backgroundColor: colorMarker.color}"
+  (dblclick)="deleteMarker(i)"
+  (click)="flyTo( colorMarker.marker )"
+  class="list-group-item">
+    Marker {{ i + 1 }}
   </li>
 </ul>
 
-<button class="btn btn-primary">
+<button class="btn btn-primary" (click)="createMarker()">
   Crear marcador
 </button>

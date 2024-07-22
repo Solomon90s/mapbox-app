@@ -1,4 +1,5 @@
-li {
+li:hover {
+  border: solid 1.5px red;
   cursor: pointer;
   transition:  0.3s all;
 }

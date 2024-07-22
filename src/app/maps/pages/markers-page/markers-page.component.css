@@ -10,8 +10,13 @@
   cursor: pointer;
 }
 
-button{
+.list-group-item {
+  padding-bottom: 5px;
+}
+
+button {
   position: fixed;
   bottom: 30px;
   right: 20px;
+  box-shadow: 10px 10px 10px #212529;
 }

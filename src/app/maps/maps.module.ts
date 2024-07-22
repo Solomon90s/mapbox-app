@@ -12,6 +12,7 @@ import { FullScreenPageComponent } from './pages/full-screen-page/full-screen-pa
 import { MarkersPageComponent } from './pages/markers-page/markers-page.component';
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
 import { ZoomRagePageComponent } from './pages/zoom-rage-page/zoom-rage-page.component';
+import { WorldPageComponent } from './pages/world-page/world-page.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ZoomRagePageComponent } from './pages/zoom-rage-page/zoom-rage-page.com
     FullScreenPageComponent,
     MarkersPageComponent,
     PropertiesPageComponent,
-    ZoomRagePageComponent
+    ZoomRagePageComponent,
+    WorldPageComponent
   ],
   imports: [
     CommonModule,

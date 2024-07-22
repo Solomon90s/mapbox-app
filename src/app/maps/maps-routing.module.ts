@@ -7,6 +7,7 @@ import { FullScreenPageComponent } from './pages/full-screen-page/full-screen-pa
 import { MarkersPageComponent } from './pages/markers-page/markers-page.component';
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
 import { ZoomRagePageComponent } from './pages/zoom-rage-page/zoom-rage-page.component';
+import { WorldPageComponent } from './pages/world-page/world-page.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,7 @@ const routes: Routes = [
       { path: 'markers', component: MarkersPageComponent },
       { path: 'properties', component: PropertiesPageComponent },
       { path: 'zoom', component: ZoomRagePageComponent },
+      { path: 'world', component: WorldPageComponent },
       { path: '**', redirectTo: 'fullscreen' },
     ]
   }
