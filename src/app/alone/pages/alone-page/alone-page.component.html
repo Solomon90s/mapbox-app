@@ -1,0 +1,22 @@
+<div class="row mt-3">
+  <div class="col-2">
+    <side-menu></side-menu>
+  </div>
+  <div class="col-10">
+
+    <h1>Standalone Component - Page</h1>
+    <hr>
+
+    <div class="row">
+      <div class="col">
+        <p>Los componentes independientes, también conocidos como “standalone components” en inglés, son un tipo de componente que se utiliza para crear componentes reutilizables que no forman parte de ningún ngModule y que se pueden usar con otros componentes
+          independientes o basados en módulos.</p>
+        <p>*Este componente no necesita ser importado en módulos, lo vamos a cargar mediante lazyload,
+          porque es su propio módulo.</p>
+
+        <!-- Contador, es un standalone component -->
+         <counter-alone [counter]="25"></counter-alone>
+      </div>
+    </div>
+  </div>
+</div>

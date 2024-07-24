@@ -8,6 +8,7 @@ import { MarkersPageComponent } from './pages/markers-page/markers-page.componen
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
 import { ZoomRagePageComponent } from './pages/zoom-rage-page/zoom-rage-page.component';
 import { WorldPageComponent } from './pages/world-page/world-page.component';
+import { AlonePageComponent } from '../alone/pages/alone-page/alone-page.component';
 
 const routes: Routes = [
   {
