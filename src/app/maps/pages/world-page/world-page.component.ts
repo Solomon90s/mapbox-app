@@ -15,7 +15,7 @@ export class WorldPageComponent {
 
     const map = new Map({
       container: this.divMap?.nativeElement, // container ID
-      style: 'mapbox://styles/mapbox/streets-v12', // style URL
+      style: 'mapbox://styles/mapbox/navigation-night-v1', // style URL
       center: [10.638579240406898, 35.37002010343717], // starting position [lng, lat]
       zoom: 2 // starting zoom
     });
